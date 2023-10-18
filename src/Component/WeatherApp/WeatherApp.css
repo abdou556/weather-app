@@ -1,0 +1,44 @@
+/* src/WeatherApp.css */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .weather-app {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .weather {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-info {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
